@@ -4,7 +4,7 @@
 
 namespace uvw
 {
-    class Loop;
+    class loop;
 }
 
 namespace Qv2rayPlugin::Latency
@@ -38,7 +38,7 @@ namespace Qv2rayPlugin::Latency
         {
             Q_UNREACHABLE();
         };
-        virtual void TestLatencyAsync(std::shared_ptr<uvw::Loop>, const LatencyTestRequest &)
+        virtual void TestLatencyAsync(std::shared_ptr<uvw::loop>, const LatencyTestRequest &)
         {
             Q_UNREACHABLE();
         }
